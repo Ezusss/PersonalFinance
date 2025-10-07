@@ -8,4 +8,11 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="PersonalFinance.Test\**" />
+    <EmbeddedResource Remove="PersonalFinance.Test\**" />
+    <None Remove="PersonalFinance.Test\**" />
+    <Page Remove="PersonalFinance.Test\**" />
+  </ItemGroup>
+
 </Project>

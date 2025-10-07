@@ -52,7 +52,7 @@ public sealed class FinanceService : IFinanceService
             .Take(3)
             .ToList();
 
-    // включительно по датам (берём .Date)
+    // включительно по датам
     private static IEnumerable<Transaction> Filter(Wallet wallet, DateTime from, DateTime to)
     {
         var f = from.Date; var t = to.Date;
